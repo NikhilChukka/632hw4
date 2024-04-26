@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 
 function Sendemail(){
     return (
@@ -74,6 +75,18 @@ function Sendemail(){
 	</div>
 	
 	<div class="col-md-9">
+=======
+import Sidebar from "./Sidebar";
+import Header from "./header";
+function Sendemail(){
+    return (
+		
+        <div>
+<Header/>
+<div class="container col-md-9">
+<div class="row inbox">
+<div className="col-md-9">
+>>>>>>> ebb866d (commit)
 		<div class="panel panel-default">
 			<div class="panel-body message">
 				<p class="text-center">New Message</p>
@@ -149,11 +162,19 @@ function Sendemail(){
 						<button type="submit" class="btn btn-danger">Discard</button>
 					</div>
 				</div>	
+<<<<<<< HEAD
 			</div>	
+=======
+			</div>
+>>>>>>> ebb866d (commit)
 		</div>	
 	</div>	
 </div>
 </div>
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> ebb866d (commit)
     );
 
 }

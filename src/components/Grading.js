@@ -100,8 +100,16 @@ function Grading(){
                 </div>
             </div>
         </section>
+<<<<<<< HEAD
         </div>
         </div>
+=======
+        <button type="button" class="btn btn-success">Submit Score</button>
+        </div>
+        
+        </div>
+        
+>>>>>>> ebb866d (commit)
     );
 }
 export default Grading;

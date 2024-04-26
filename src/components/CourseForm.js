@@ -5,7 +5,11 @@ import React, { useState } from 'react';
 const CourseForm = ({ onAddCourse }) => { 
 	const [courseName, setCourseName] = useState(''); 
 	const [creditHours, setCreditHours] = useState(0); 
+<<<<<<< HEAD
 	const [grade, setGrade] = useState('A+'); 
+=======
+	const [grade, setGrade] = useState('100'); 
+>>>>>>> ebb866d (commit)
 
 	const handleAddCourse = () => { 
 		if (courseName && creditHours > 0 && grade) { 

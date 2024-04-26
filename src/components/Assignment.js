@@ -16,7 +16,11 @@ function Assignment(){
         <br></br>
         <h5 align='center'>Assignment 1</h5>
         &nbsp;&nbsp;&nbsp; <Link to='/posthw' className="btn btn-outline-info" >Post a New Homework </Link> &nbsp;
+<<<<<<< HEAD
         &nbsp;&nbsp;&nbsp; <Link to='/GPACalculator' className="btn btn-outline-info" >Calculate Final Grade </Link> &nbsp;
+=======
+        &nbsp;&nbsp;&nbsp; <Link to='/GPACalculator' className="btn btn-outline-info" >Calculate Score </Link> &nbsp;
+>>>>>>> ebb866d (commit)
 
         <table class="table">
   <thead>

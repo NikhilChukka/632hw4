@@ -11,6 +11,10 @@ import Newhomework from './components/Newhomework'
 import Activitystream from './components/Activitystream';
 import Grading from './components/Grading';
 import GPACalculator from './components/GPACalculator';
+<<<<<<< HEAD
+=======
+import Sendemail from './components/Sendemail'
+>>>>>>> ebb866d (commit)
 
 
 function App() { 
@@ -23,6 +27,10 @@ function App() {
       <Route path='/Activitystream' element={<Activitystream/>}/>
       <Route path='/grading' element={<Grading/>}/>
       <Route path='/GPACalculator' element={<GPACalculator/>}/>
+<<<<<<< HEAD
+=======
+      <Route path='/sendemail' element={<Sendemail/>} />
+>>>>>>> ebb866d (commit)
     
     </Routes>
    

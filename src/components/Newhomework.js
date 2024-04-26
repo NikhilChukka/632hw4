@@ -90,7 +90,11 @@ function Newhomework() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
+<<<<<<< HEAD
           <Modal.Title>New Homework</Modal.Title>
+=======
+          <Modal.Title>Post a New Homework</Modal.Title>
+>>>>>>> ebb866d (commit)
         </Modal.Header>
         <Modal.Body>Successfully Posted the Homework</Modal.Body>
         <Modal.Footer>
