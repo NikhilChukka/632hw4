@@ -8,21 +8,12 @@ function Sidebar() {
   
 
   return (
-<<<<<<< HEAD
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style= {{width: "280px" , height:'100vh'}} >
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr></hr>
-=======
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style= {{width: "280px" , height:'100vh' , left:'0px',display:'flex'}} >
     {/* <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
       <span class="fs-4">Sidebar</span>
     </a> */}
 
->>>>>>> ebb866d (commit)
     <ul class="nav nav-pills flex-column mb-auto">
       <li class="nav-item">
         <a href="/" id="home" class="nav-link text-white active" aria-current="page">
@@ -37,11 +28,7 @@ function Sidebar() {
         </a>
       </li>
       <li>
-<<<<<<< HEAD
-        <a href="#" id='sendemail'class="nav-link text-white">
-=======
         <a href="/sendemail" id='sendemail'class="nav-link text-white">
->>>>>>> ebb866d (commit)
           <svg class="bi me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
           Send Email
         </a>
@@ -52,16 +39,7 @@ function Sidebar() {
           Organizations
         </a>
       </li>
-<<<<<<< HEAD
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
-          Customers
-        </a>
-      </li>
-=======
   
->>>>>>> ebb866d (commit)
     </ul>
      <hr></hr>
     <div class="dropdown">

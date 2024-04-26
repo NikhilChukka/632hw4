@@ -10,10 +10,7 @@ function Carditerator() {
   return (
     
     <div className="row" >
-<<<<<<< HEAD
-=======
       &ensp;
->>>>>>> ebb866d (commit)
         <p>Spring Courses</p>
       {data.map((card) => (
         <div key={card.id} className="col-sm-4">
@@ -41,10 +38,7 @@ function Carditerator() {
         
         
       ))}
-<<<<<<< HEAD
-=======
       
->>>>>>> ebb866d (commit)
      
     </div>
   

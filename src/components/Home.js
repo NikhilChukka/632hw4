@@ -7,13 +7,8 @@ function Home() {
   return ( 
     <div className="Home"> 
       <Header />
-<<<<<<< HEAD
-      &nbsp;
-      <div className="container">
-=======
      
       <div >
->>>>>>> ebb866d (commit)
       <div className="row">
         <div className="col-md-3">
         <Sidebar />

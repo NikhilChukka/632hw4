@@ -1,81 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-function Sendemail(){
-    return (
-        <div class="container">
-<div class="row inbox">
-	<div class="col-md-3">
-		<div class="panel panel-default">
-			<div class="panel-body inbox-menu">						
-				<a href="#page-inbox-compose.html" class="btn btn-danger btn-block">New Email</a>
-				<ul>
-					<li>
-						<a href="#page-inbox.html"><i class="fa fa-inbox"></i> Inbox <span class="label label-danger">4</span></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-star"></i> Stared</a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-rocket"></i> Sent</a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-trash-o"></i> Trash</a>
-					</li>
-					<li>
-						<a href="#"><i class="fa fa-bookmark"></i> Important<span class="label label-info">5</span></a>
-					</li>
-					<li class="title">
-						Labels
-					</li>
-					<li>
-						<a href="#">Home <span class="label label-danger"></span></a>
-					</li>
-					<li>
-						<a href="#">Job <span class="label label-info"></span></a>
-					</li>
-					<li>
-						<a href="#">Clients <span class="label label-success"></span></a>
-					</li>
-					<li>
-						<a href="#">News <span class="label label-warning"></span></a>
-					</li>
-				</ul>
-			</div>	
-		</div>
-		
-		<div class="panel panel-default">
-			<div class="panel-body contacts">
-				<a href="#" class="btn btn-success btn-block"> + Contact</a>
-				<ul>
-					<li><span class="label label-danger"></span> Adam Alister</li>
-					<li><span class="label label-default"></span> Alphonse Ivo</li>
-					<li><span class="label label-success"></span> Anton Phunihel</li>
-					<li><span class="label label-success"></span> Ajith Hristijan</li>
-					<li><span class="label label-warning"></span> Bao Gaspar</li>
-					<li><span class="label label-default"></span> Bernhard Shelah</li>
-					<li><span class="label label-success"></span> Bünyamin Kasper</li>
-					<li><span class="label label-danger"></span> Carlito Roffe</li>
-					<li><span class="label label-danger"></span> Chidubem Gottlob</li>
-					<li><span class="label label-warning"></span> Dederick Mihail</li>
-					<li><span class="label label-success"></span> Felice Arseniy</li>
-					<li><span class="label label-default"></span> Grahame Miodrag</li>
-					<li><span class="label label-default"></span> Hristofor Sergio</li>
-					<li><span class="label label-danger"></span> Scottie Maximilian</li>
-					<li><span class="label label-danger"></span> Sullivan Robert</li>
-					<li><span class="label label-danger"></span> Thancmar Theophanes</li>
-					<li><span class="label label-warning"></span> Tullio Luka</li>
-					<li><span class="label label-success"></span> Walerian Khwaja</li>
-				</ul>
-			
-			</div>
-		
-		</div>			
-		
-	</div>
-	
-	<div class="col-md-9">
-=======
 import Sidebar from "./Sidebar";
 import Header from "./header";
 function Sendemail(){
@@ -86,7 +9,6 @@ function Sendemail(){
 <div class="container col-md-9">
 <div class="row inbox">
 <div className="col-md-9">
->>>>>>> ebb866d (commit)
 		<div class="panel panel-default">
 			<div class="panel-body message">
 				<p class="text-center">New Message</p>
@@ -162,19 +84,12 @@ function Sendemail(){
 						<button type="submit" class="btn btn-danger">Discard</button>
 					</div>
 				</div>	
-<<<<<<< HEAD
-			</div>	
-=======
 			</div>
->>>>>>> ebb866d (commit)
 		</div>	
 	</div>	
 </div>
 </div>
-<<<<<<< HEAD
-=======
 </div>
->>>>>>> ebb866d (commit)
     );
 
 }
